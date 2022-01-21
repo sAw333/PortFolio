@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./navBar";
 import About from "./about";
 import Footer from "./footer";
@@ -10,7 +10,7 @@ import "./app.css";
 export default class App extends Component {
   render() {
     return (
-      <Router>
+      <>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
@@ -18,7 +18,9 @@ export default class App extends Component {
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
         <Footer />
-      </Router>
+      </>
     );
   }
 }
+
+// http://sAw333.github.io/portfolio

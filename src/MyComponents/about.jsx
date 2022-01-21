@@ -25,13 +25,13 @@ function About() {
           become a successful developer and be of help to everyone out there
           failing to follow their passion and dream of being a developer. When
           I'm not coding, You'll find me playing cricket, listening to music and
-          did I mention? I'm a poker player.
+          did I mention? I Love playing poker.
         </h3>
       </div>
       <span className="resume">
         <a
           className="aboutLink"
-          href="https://drive.google.com/file/d/1ixf_rWpxjDSuzlk05SOPZAhfSzXUU07t/view?usp=sharing"
+          href="https://drive.google.com/file/d/1dt7FVMnZRrC3zGEsl6PQ0tPZOT_xFtdr/view?usp=sharing"
           target="blank"
         >
           Resume
