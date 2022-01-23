@@ -243,3 +243,46 @@
     transform: scale(3) rotate(30deg);
   }
 }
+
+@media (max-width: 960px) {
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem 0rem;
+  }
+
+  .aboutMain {
+    margin: 3rem 0;
+  }
+  .contactMain {
+    margin: 5rem 0rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .formEle :first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutHeader {
+    margin: 3rem 3rem;
+  }
+
+  .formEle {
+    margin: 1rem;
+  }
+
+  .contactForm {
+    flex-direction: column;
+    margin: 2rem 2rem;
+  }
+
+  .homeMain {
+    flex-direction: column;
+    margin: 3rem 1rem;
+  }
+}

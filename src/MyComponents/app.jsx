@@ -22,5 +22,3 @@ export default class App extends Component {
     );
   }
 }
-
-// http://sAw333.github.io/portfolio
