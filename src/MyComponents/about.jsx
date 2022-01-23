@@ -31,7 +31,7 @@ function About() {
       <span className="resume">
         <a
           className="aboutLink"
-          href="https://drive.google.com/file/d/1dt7FVMnZRrC3zGEsl6PQ0tPZOT_xFtdr/view?usp=sharing"
+          href="https://drive.google.com/file/d/19NPiN6bfvP1nrpdnJ_6MC-sthfyvAL5H/view?usp=sharing"
           target="blank"
         >
           Resume
